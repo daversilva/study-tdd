@@ -60,6 +60,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarrinhoDeCompras\CarrinhoDeCompras.cs" />
+    <Compile Include="CarrinhoDeCompras\Item.cs" />
+    <Compile Include="CarrinhoDeCompras\MaiorPreco.cs" />
+    <Compile Include="CarrinhoDeCompras\TestMaiorPreco.cs" />
     <Compile Include="Pagamento\CalculadoraDeSalarios.cs" />
     <Compile Include="Pagamento\Cargo.cs" />
     <Compile Include="Pagamento\Funcionario.cs" />

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleAppRoman
+namespace StudyTdd.RomanNumber
 {
     class ConversoDeNumeroRomano
     {

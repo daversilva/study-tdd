@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace ConsoleAppRoman
+namespace StudyTdd.RomanNumber
 {
     [TestFixture]
     public class TestNumberRoman

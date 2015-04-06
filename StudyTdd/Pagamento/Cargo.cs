@@ -1,9 +1,29 @@
-﻿namespace StudyTdd.Pagamento
+﻿using System.Dynamic;
+
+namespace StudyTdd.Pagamento
 {
-    public enum Cargo
+    public class Cargo
     {
-        Desenvolvedor,
-        Dba,
-        Testador
+        public Cargo Desenvolvedor
+        {
+            get { return new Cargo(new DezOuVintePorCento()); }
+        }
+
+        public Cargo Dba
+        {
+            get { return new Cargo(new QuinzeOuVinteCincoPorCento()); }
+        }
+
+        public Cargo Testador
+        {
+            get { return new Cargo(new QuinzeOuVinteCincoPorCento()); }
+        }
+
+        public RegraCalculo Regra { get; private set; }
+
+        public Cargo(RegraCalculo regra)
+        {
+            this.Regra = regra;
+        }
     }
 }

@@ -65,7 +65,10 @@
     <Compile Include="CarrinhoDeCompras\TestMaiorPreco.cs" />
     <Compile Include="Pagamento\CalculadoraDeSalarios.cs" />
     <Compile Include="Pagamento\Cargo.cs" />
+    <Compile Include="Pagamento\DezOuVintePorCento.cs" />
     <Compile Include="Pagamento\Funcionario.cs" />
+    <Compile Include="Pagamento\RegraCalculo.cs" />
+    <Compile Include="Pagamento\QuinzeOuVinteCincoPorCento.cs" />
     <Compile Include="Pagamento\TestCalculadoraDeSalarios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -67,9 +67,12 @@
     <Compile Include="CarrinhoDeCompras\Item.cs" />
     <Compile Include="CarrinhoDeCompras\TestMaiorPreco.cs" />
     <Compile Include="NotaFiscal\GeradorDeNotaFiscal.cs" />
+    <Compile Include="NotaFiscal\IAcaoAposGerarNota.cs" />
+    <Compile Include="NotaFiscal\IRelogio.cs" />
     <Compile Include="NotaFiscal\NfDao.cs" />
     <Compile Include="NotaFiscal\NotaFiscal.cs" />
     <Compile Include="NotaFiscal\Pedido.cs" />
+    <Compile Include="NotaFiscal\RelogioDoSistema.cs" />
     <Compile Include="NotaFiscal\Sap.cs" />
     <Compile Include="NotaFiscal\TesteNotaFiscal.cs" />
     <Compile Include="Pagamento\CalculadoraDeSalarios.cs" />

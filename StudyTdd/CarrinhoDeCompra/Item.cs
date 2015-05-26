@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StudyTdd.CarrinhoDeCompras
+namespace StudyTdd.CarrinhoDeCompra
 {
     public class Item
     {

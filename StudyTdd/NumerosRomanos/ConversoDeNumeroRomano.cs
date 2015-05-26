@@ -2,7 +2,7 @@
 
 namespace StudyTdd.NumerosRomanos
 {
-    class ConversoDeNumeroRomano
+    public class ConversoDeNumeroRomano
     {
         private static readonly Dictionary<char, int> Tabela =
             new Dictionary<char, int>()

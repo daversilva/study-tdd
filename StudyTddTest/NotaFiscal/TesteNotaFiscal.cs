@@ -1,9 +1,9 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Moq;
 using NUnit.Framework;
+using StudyTdd.NotaFiscal;
 
-namespace StudyTdd.NotaFiscal
+namespace StudyTddTest.NotaFiscal
 {
     public class TesteNotaFiscal
     {
@@ -14,7 +14,7 @@ namespace StudyTdd.NotaFiscal
 
             Pedido pedido = new Pedido("Mauricio", 1000, 1);
 
-            NotaFiscal nf = gerador.Gera(pedido);
+            StudyTdd.NotaFiscal.NotaFiscal nf = gerador.Gera(pedido);
 
             Assert.AreEqual(1000 * 0.94, nf.Valor, 0.0001);
         }
@@ -28,7 +28,7 @@ namespace StudyTdd.NotaFiscal
 
             Pedido pedido = new Pedido("Mauricio", 1000, 1);
 
-            NotaFiscal nf = gerador.Gera(pedido);
+            StudyTdd.NotaFiscal.NotaFiscal nf = gerador.Gera(pedido);
 
             //dao.Verify(t => t.Persiste(nf));
 
@@ -49,7 +49,7 @@ namespace StudyTdd.NotaFiscal
 
             Pedido pedido = new Pedido("Mauricio", 1000, 1);
 
-            NotaFiscal nf = gerador.Gera(pedido);
+            StudyTdd.NotaFiscal.NotaFiscal nf = gerador.Gera(pedido);
 
             acao1.Verify(a => a.Executa(nf));
             acao2.Verify(a => a.Executa(nf));

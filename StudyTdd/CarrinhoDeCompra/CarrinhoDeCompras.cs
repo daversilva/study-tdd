@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 
-namespace StudyTdd.CarrinhoDeCompras
+namespace StudyTdd.CarrinhoDeCompra
 {
     public class CarrinhoDeCompras
     {

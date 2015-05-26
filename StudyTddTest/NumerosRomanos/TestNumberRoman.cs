@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using StudyTdd.NumerosRomanos;
 
-namespace StudyTdd.NumerosRomanos
+namespace StudyTddTest.NumerosRomanos
 {
     [TestFixture]
     public class TestNumberRoman

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace StudyTdd.NotaFiscal
 {
-    class GeradorDeNotaFiscal
+    public class GeradorDeNotaFiscal
     {
         private NfDao _dao;
 

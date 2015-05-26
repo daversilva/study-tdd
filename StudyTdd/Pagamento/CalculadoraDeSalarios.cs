@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace StudyTdd.Pagamento
 {
     public class CalculadoraDeSalarios

@@ -1,5 +1,4 @@
-﻿using System.Dynamic;
-
+﻿
 namespace StudyTdd.Pagamento
 {
     public class Cargo

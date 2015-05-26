@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyTdd", "StudyTdd\StudyT
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6DAE2427-671C-4096-A989-0F9D2ED7A9C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyTddTest", "StudyTddTest\StudyTddTest.csproj", "{90B30479-91E4-46DD-A55D-F967CE8A63CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{FF0D593D-0D67-4592-91FA-A42521F83BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF0D593D-0D67-4592-91FA-A42521F83BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF0D593D-0D67-4592-91FA-A42521F83BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B30479-91E4-46DD-A55D-F967CE8A63CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B30479-91E4-46DD-A55D-F967CE8A63CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B30479-91E4-46DD-A55D-F967CE8A63CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B30479-91E4-46DD-A55D-F967CE8A63CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

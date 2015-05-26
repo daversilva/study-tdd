@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using StudyTdd.CarrinhoDeCompra;
 
-namespace StudyTdd.CarrinhoDeCompras
+namespace StudyTddTest.CarrinhoDeCompra
 {
     [TestFixture]
     public class TestMaiorPreco

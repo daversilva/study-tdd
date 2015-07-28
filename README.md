@@ -1,5 +1,7 @@
-[![Build Status](https://travis-ci.org/daversilva/tdd-test-and-design.svg?branch=master)](https://travis-ci.org/daversilva/tdd-test-and-design)
-# TDD Test and design
-Repositório destinado ao estudo de TDD usando como linguagem de programação C# e framework de teste NUnit.
+# TDD Test and design [![Build Status](https://travis-ci.org/daversilva/tdd-test-and-design.svg?branch=master)](https://travis-ci.org/daversilva/tdd-test-and-design)
 
-O livro usado como base para o estudo foi o "Test-Driven Development: Teste e Design no Mundo Real com .NET"
+Repositório destinado ao estudo de TDD
+* Linguagem de programação **C#** 
+* Framework de teste **NUnit**
+* Literatura de estudo **Test-Driven Development: Teste e Design no Mundo Real com .NET**
+

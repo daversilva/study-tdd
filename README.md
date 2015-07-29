@@ -3,5 +3,5 @@
 Repositório destinado ao estudo de TDD
 * Linguagem de programação **C#** 
 * Framework de teste **NUnit**
-* Literatura de estudo **Test-Driven Development: Teste e Design no Mundo Real com .NET**
+* Literatura de estudo **Test-Driven Development: Teste e Design no Mundo Real com .NET**, *Maurício Aniche*
 
